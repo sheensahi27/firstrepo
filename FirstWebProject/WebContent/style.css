@@ -1,3 +1,29 @@
+body {
+	background-image: url("friends.jpeg");
+	background-size:cover;
+}
+
 p {
-	color:red;
+	color: white;
+	font-family: sans-serif;
+ font-size: xx-large;
+ font-style: italic;
+ text-align: center;
+ text-decoration:blink;
+
+}
+img {
+    border-radius: 50%;
+    display: inline;
+}
+
+div{
+	text-align:left;
+	width: 800px;
+	background-color: graytext;
+	opacity: 0.5;
+	
+}
+div:HOVER{
+	background-color: black;
 }
