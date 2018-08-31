@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Auction REgistration Page</title>
+</head>
+<body>
+<h1 align="center">Enter Details</h1>
+
+<form  action="ex" method="post">
+<fieldset>
+<legend align="top">personal details</legend>
+first name<input type="text" name="fname" autofocus required />
+last name<input type="text" name="lname" autofocus required /><br /> gender: <input
+			type= "radio" name="r1" value="male">male <input type="radio"
+			name="r1" value="female">female<br /> 
+			enter age <input
+			type="number" min="0" max="50" step="2" value="20" required /><br />
+			enter address :<input type="text" required /><br /> 
+		enter nationality: <select required="required">
+			<option>INDIA</option>
+			<option>PAKISTAN</option>
+			<option>NEPAL</option>
+			</select>
+			email address <input  type="email" name="ea"  required /><br />
+Enter the type:
+<select name="types" form="f1">
+		<option>seller</option>
+		<option>bidder</option>
+		<option>both</option>
+		</select><br/>
+		
+		enter phone number:
+		<input type="tel" name="te" required pattern="[0-9]{10}">
+		enter password
+		<input type="password" name="pss">
+		<input
+			type="submit" value="submit"><br />
+		
+
+</fieldset>
+</form>
+
+</body>
+</html>
